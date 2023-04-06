@@ -1,4 +1,6 @@
-package com.sample;
+package com.sample.model;
+
+import com.sample.repository.WordFrequency;
 
 public class WordFrequencyObject implements WordFrequency {
 

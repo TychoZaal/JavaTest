@@ -1,4 +1,4 @@
-package com.sample;
+package com.sample.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,10 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 
-public class WordFrequencyAnalyzerObject implements WordFrequencyAnalyzer {
+import com.sample.repository.WordFrequency;
+import com.sample.repository.WordFrequencyAnalyzer;
+
+public class WordFrequencyAnalyzerModel implements WordFrequencyAnalyzer {
 
 	@Override
 	public int calculateHighestFrequency(String text) {

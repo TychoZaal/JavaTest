@@ -1,4 +1,4 @@
-package com.sample;
+package com.sample.repository;
 
 public interface WordFrequencyAnalyzer {
 	int calculateHighestFrequency(String text);
